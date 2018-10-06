@@ -110,6 +110,7 @@ public class BoothsAlgorithm {
 		int m = scan.nextInt();
 		System.out.println(" Enter the decimal multiplier");
 		int q = scan.nextInt();
+		scan.close();
 		ba.multiplybinary(m,q,0);
 	}
 
