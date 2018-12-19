@@ -1,0 +1,3 @@
+Banyan Batcher is a self routing network, that is used to transfer packets from input port to the output port 
+based on the destination tag. In this implementation, the packets are sorted using Batcher Sort and then the Delta network is 
+used to transfer the packet from the source to the destination based on the destination tag. 
